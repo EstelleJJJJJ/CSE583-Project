@@ -3,7 +3,7 @@ Course project
 
 ## Contributors
 
-- Estelle (@EstelleJJJJJ)
+- Yucheng Jiang (@EstelleJJJJJ)
 - Peiyan Xie (@peiyax)
-- @ari11a
+- Zitong Ren (@ari11a)
 - Yuxia Liang (@zl1212-ship-it)
