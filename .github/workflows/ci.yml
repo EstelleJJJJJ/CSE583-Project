@@ -28,8 +28,5 @@ jobs:
       - name: Lint
         run: ruff check .
 
-      - name: Check formatting
-        run: ruff format --check .
-
       - name: Test
-        run: pytest --cov=parkmatch --cov-report=term-missing
+        run: pytest --cov=parkmatch

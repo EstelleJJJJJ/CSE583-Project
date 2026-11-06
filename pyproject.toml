@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "parkmatch"
 version = "0.1.0"
-description = "Find, compare and look up U.S. National Park System sites from NPS data."
+description = "Find U.S. National Park System sites that fit what you like, using NPS data."
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
@@ -22,12 +22,10 @@ classifiers = [
 ]
 dependencies = [
     "pandas>=2.2",
-    "requests>=2.31",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov", "ruff"]
-app = ["streamlit", "folium"]
 
 [project.urls]
 Repository = "https://github.com/EstelleJJJJJ/CSE583-Project"
