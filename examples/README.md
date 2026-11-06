@@ -1,16 +1,11 @@
 # Examples
 
-`find_parks_example.py` runs the package end to end on the bundled snapshot, so it works
-offline and without an API key. Install the package first (`pip install -e .` from the
-repository root), then run:
+`find_parks_example.py` shows the main functions on the data that ships with the package, so
+it runs offline and without an API key. After `pip install -e .` in the repository root, run:
 
 ```
 python examples/find_parks_example.py
 ```
 
-It prints, in order: Washington parks with hiking and camping under a $35 entrance fee,
-parks anywhere with stargazing and a campground, California parks with accessible
-restrooms, a side-by-side table for Olympic, Mount Rainier and North Cascades, a summary
-of Olympic National Park, and Mount Rainier's month-by-month visitation profile. Each
-search row carries a `match_reasons` sentence that says which requested criteria the park
-meets and which it does not.
+It prints two searches (Washington parks for hiking and camping, and California parks with
+accessible facilities), a side-by-side comparison of three parks, and a summary of one park.
