@@ -23,7 +23,7 @@ def test_entrance_fee_known_free_and_unknown():
 
 def test_load_visits_matches_published_numbers():
     visits = parkmatch.load_visits().set_index(["park_code", "year"])
-    assert visits.loc[("grsm", 2024), "visits"] == 12_191_834  # NPS press release figure
+    assert visits.loc[("grsm", 2024), "visits"] == 12_191_834  # NPS Statistical Abstract 2024
     assert visits.loc[("seki", 2024), "visits"] == 2_008_962  # Sequoia plus Kings Canyon
 
 
