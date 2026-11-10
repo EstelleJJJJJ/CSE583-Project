@@ -134,3 +134,35 @@ Leo is a nature enthusiast with low vision who wants to research national parks 
 30. **Natalie — A Group Trip Organizer**
 
 Natalie is organizing a national park trip for friends with different interests and fitness levels. She wants to use the website to find a park that offers challenging hikes, easy walks, scenic drives, and comfortable places to relax. She needs to combine multiple filters and compare parks so she can identify destinations that meet the group’s shared requirements. Natalie is experienced in planning trips and using online tools, so she prefers flexible filtering and park summaries that are easy to share with her friends.
+
+31. **Emily — A Dog Owner**
+
+Emily is a dog owner who wants to include her pet in a national park trip. She wants to use the website to identify parks with pet-friendly areas and compare the activities she can enjoy with her dog. She needs a pet-friendly filter and specific information about where dogs are allowed, leash requirements, and restrictions on individual trails. Emily is comfortable browsing websites but unfamiliar with national park pet policies, so she prefers clear explanations that help her understand the limits of each park’s pet-friendly label.
+
+32. **David — A Road Trip Traveler**
+
+David is a road trip enthusiast who wants to visit several national parks during a driving vacation. He wants to use the map to understand where parks are located and identify stops along his planned route. He needs filters for scenic drives and vehicle access, along with information about park entrances, parking, and seasonal road closures. David is confident using navigation apps but knows little about individual national parks, so he prefers a clear geographic overview with accessible driving information.
+
+33. **Linda — An Older Traveler Seeking Gentle Activities**
+
+Linda is a retired teacher who enjoys nature and prefers activities that require limited physical effort. She wants to use the website to find national parks with scenic viewpoints and short, gentle walks. She needs information about trail surfaces, slopes, benches, restrooms, and viewpoints accessible by car or shuttle. Linda has basic computer skills and little experience with interactive maps, so she prefers readable text, clear navigation, and filters that are easy to select.
+
+34. **James — A Traveler Who Uses a Wheelchair**
+
+James is a photographer who uses a wheelchair and wants to explore national parks independently. He wants to use the website to find accessible trails, viewpoints, and facilities before choosing a destination. He needs specific details about trail surfaces, gradients, accessible parking, restrooms, and shuttle access rather than a general accessibility label. James is skilled with digital tools and experienced in accessible travel planning, so he values precise information that helps him assess whether a location meets his needs.
+
+35. **Daniel — A Visitor Interested in Ranger Programs**
+
+Daniel wants to learn more about the natural and cultural history of national parks. He wants to use the website to find ranger-led walks, educational talks, guided tours, and other park programs. He needs information about program schedules, locations, duration, fees, accessibility, and reservation requirements. Daniel is comfortable using event websites but is unfamiliar with individual park websites, so he prefers a centralized and searchable list of activities.
+
+36. **Priya — A Last-Minute Traveler Checking Park Conditions**
+
+Priya is planning a national park visit on short notice. She wants to use the website to check current park alerts, road closures, seasonal restrictions, and changes in operating hours. She needs important updates to be clearly displayed so she can avoid unexpected disruptions and adjust her plans if necessary. Priya has intermediate web skills but limited familiarity with National Park Service alert systems, so she prefers notices written in clear and simple language.
+
+37. **Sophie — An International Visitor**
+
+Sophie is an international tourist planning her first trip to the United States. She wants to use the website to understand the geographic distribution of national parks and choose a few that fit her itinerary and interests. She needs a map with recognizable city or state references, concise park introductions, and filters for landscapes, hiking difficulty, and driving access. Sophie has experience booking travel online but is unfamiliar with U.S. geography and national park terminology, so she prefers visual information and plain-language descriptions.
+
+38. **Ethan — A Budget-Conscious Student**
+
+Ethan is a university student who wants to explore national parks on a limited budget. He wants to use the website to compare parks and find affordable options for a short vacation. He needs information about entrance fees, camping costs, available facilities, and free activities so he can estimate his expenses. Ethan is comfortable using websites and online maps but has little trip-planning experience, so he prefers clearly organized cost information.
