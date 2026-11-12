@@ -14,8 +14,8 @@ plan to add a map and a simple web page on top of it later in the quarter.
 
 ## User profile
 
-Our 32 user stories (`design/user_stories.md`) describe people planning a trip. We see four
-groups:
+Our user stories (`design/user_stories.md`) describe 32 different people planning a trip. We
+see four groups:
 
 - **First-time and casual visitors** such as Alex, Sophie, Lucas, Mia and Isabella. They know
   little about national parks. They want plain words, a photo, a short description and only

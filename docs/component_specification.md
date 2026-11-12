@@ -29,7 +29,7 @@ data.
 | `explain_match` | one row of the table and the same choices | one sentence (str) |
 | `compare_parks` | the table and a list of park codes | DataFrame with one column per park |
 | `search_parks` | the table and some text | DataFrame of parks whose name contains the text |
-| `park_summary` | the table and one park code | dict with name, states, description, fee, campgrounds, visits, link |
+| `park_summary` | the table and one park code | dict with name, designation, states, description, url, image_url, activities, fee, campgrounds, visits |
 
 - **How the score works:** states, fee and campground are filters, so a park passes or not.
   A park with an unknown fee doesn't pass a fee filter. Activities and facilities are
