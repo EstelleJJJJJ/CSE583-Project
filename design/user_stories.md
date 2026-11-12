@@ -55,6 +55,7 @@ Ryan is a young professional who wants to try camping in a national park for the
 10. **Sophie — An International Visitor**
 
 Sophie is an international tourist planning her first trip to the United States. She wants to use the website to understand the geographic distribution of national parks and choose a few that fit her itinerary and interests. She needs a map with recognizable city or state references, concise park introductions, and filters for landscapes, hiking difficulty, and driving access. Sophie has experience booking travel online but is unfamiliar with U.S. geography and national park terminology, so she prefers visual information and plain-language descriptions.
+
 11. **Ethan — A Budget-Conscious Student**
 
 Ethan is a university student who wants to explore national parks on a limited budget. He wants to use the website to compare parks and find affordable options for a short vacation. He needs information about entrance fees, camping costs, available facilities, and free activities so he can estimate his expenses. Ethan is comfortable using websites and online maps but has little trip-planning experience, so he prefers clearly organized cost information.
@@ -163,6 +164,3 @@ Priya is planning a national park visit on short notice. She wants to use the we
 
 Sophie is an international tourist planning her first trip to the United States. She wants to use the website to understand the geographic distribution of national parks and choose a few that fit her itinerary and interests. She needs a map with recognizable city or state references, concise park introductions, and filters for landscapes, hiking difficulty, and driving access. Sophie has experience booking travel online but is unfamiliar with U.S. geography and national park terminology, so she prefers visual information and plain-language descriptions.
 
-38. **Ethan — A Budget-Conscious Student**
-
-Ethan is a university student who wants to explore national parks on a limited budget. He wants to use the website to compare parks and find affordable options for a short vacation. He needs information about entrance fees, camping costs, available facilities, and free activities so he can estimate his expenses. Ethan is comfortable using websites and online maps but has little trip-planning experience, so he prefers clearly organized cost information.
