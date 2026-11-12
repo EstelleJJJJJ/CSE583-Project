@@ -71,14 +71,16 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 ## Contributors
 
-| Name | GitHub | So far |
-|---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories |
-| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md |
-| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package |
+| Name | GitHub | So far | Looks after from now on |
+|---|---|---|---|
+| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories | the matcher (search and compare) and the component specification |
+| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md | the user stories, use cases and functional specification |
+| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories | the data files, the data module and the tests |
+| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package | CI and the project setup (pyproject.toml, README) |
 
-We'll update this table as we split up the rest of the work.
+Whoever looks after a part keeps it working, reviews pull requests that change it, and presents
+it in our talks. The map and the web page will get owners after the technology review on
+November 17, where we compare three map libraries.
 
 ## License
 
