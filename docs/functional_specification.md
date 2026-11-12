@@ -14,16 +14,18 @@ plan to add a map and a simple web page on top of it later in the quarter.
 
 ## User profile
 
-Our 30 user stories (`design/user_stories.md`) describe people planning a trip. We see four
+Our 32 user stories (`design/user_stories.md`) describe people planning a trip. We see four
 groups:
 
 - **First-time and casual visitors** such as Alex, Sophie, Lucas, Mia and Isabella. They know
   little about national parks. They want plain words, a photo, a short description and only
   a few filters.
-- **People with a hobby** such as Olivia, Noah, Chloe, Daniel, Owen, Amelia, William, Ella,
-  Michael and Jack. They know their activity well and want to filter by it.
+- **People with a hobby** such as Olivia, Noah, Chloe, Owen, Amelia, William, Ella, Michael,
+  Jack and both Daniels (one likes stargazing, the other ranger programs). They know their
+  activity well and want to filter by it.
 - **People planning around logistics** such as Sarah, Ryan, Henry, David, Lily, Ethan,
-  Natalie and Grace. They care about campgrounds, facilities, fees and how to get there.
+  Natalie, Grace and Priya. They care about campgrounds, facilities, fees and how to get
+  there, and Priya also wants to know whether a park is open right now.
 - **People with access needs** such as James, Linda, Leo, Benjamin, Ava and Emily. They need
   specific facilities, such as wheelchair access or accessible restrooms. Leo also needs a
   version of the map that works with a screen reader.
