@@ -27,4 +27,3 @@ htmlcov/
 
 # Project data that is downloaded, not committed
 data/raw/
-.park_matching_cache/

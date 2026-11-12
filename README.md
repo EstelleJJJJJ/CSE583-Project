@@ -62,7 +62,7 @@ There's a longer example in [examples/find_parks_example.py](examples/find_parks
 design/              user stories and use cases
 docs/                functional and component specifications
 src/park_matching/   the package: data.py loads and joins the data, matcher.py searches and compares
-tests/               tests, run with pytest
+test/                tests, run with pytest
 examples/            an example script
 scripts/             build_data.py, only used to refresh the data
 ```

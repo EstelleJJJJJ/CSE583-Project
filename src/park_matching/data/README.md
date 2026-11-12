@@ -19,10 +19,10 @@ repository root:
 
 ```
 mkdir -p data/raw
-for endpoint in parks campgrounds amenities/parksplaces feespasses; do
-  curl "https://developer.nps.gov/api/v1/$endpoint?limit=1000&api_key=YOUR_KEY" \
-       -o "data/raw/$(echo $endpoint | tr / _).json"
-done
+curl "https://developer.nps.gov/api/v1/parks?limit=1000&api_key=YOUR_KEY" -o data/raw/parks.json
+curl "https://developer.nps.gov/api/v1/campgrounds?limit=1000&api_key=YOUR_KEY" -o data/raw/campgrounds.json
+curl "https://developer.nps.gov/api/v1/amenities/parksplaces?limit=1000&api_key=YOUR_KEY" -o data/raw/amenities_parksplaces.json
+curl "https://developer.nps.gov/api/v1/feespasses?limit=1000&api_key=YOUR_KEY" -o data/raw/feespasses.json
 curl -L "https://irma.nps.gov/DataStore/DownloadFile/756959?Reference=2317666" -o data/raw/Main_Data.csv
 python scripts/build_data.py
 ```
