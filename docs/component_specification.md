@@ -6,7 +6,7 @@ data.
 
 ## Software components
 
-### 1. Data manager (`src/parkmatch/data.py`)
+### 1. Data manager (`src/park_matching/data.py`)
 
 - **What it does:** Loads the two CSV files that ship with the package and joins them into
   one table with one row per park.
@@ -17,7 +17,7 @@ data.
 - **Uses:** no other component.
 - **Side effects:** none. It only reads files.
 
-### 2. Matcher (`src/parkmatch/matcher.py`)
+### 2. Matcher (`src/park_matching/matcher.py`)
 
 - **What it does:** Filters, scores, compares and looks up parks in the table from the data
   manager.
@@ -29,7 +29,7 @@ data.
 | `explain_match` | one row of the table and the same choices | one sentence (str) |
 | `compare_parks` | the table and a list of park codes | DataFrame with one column per park |
 | `search_parks` | the table and some text | DataFrame of parks whose name contains the text |
-| `park_summary` | the table and one park code | dict with name, states, description, fee, campgrounds, visits, link |
+| `park_summary` | the table and one park code | dict with name, designation, states, description, url, image_url, activities, fee, campgrounds, visits |
 
 - **How the score works:** states, fee and campground are filters, so a park passes or not.
   A park with an unknown fee doesn't pass a fee filter. Activities and facilities are
@@ -62,7 +62,7 @@ data.
 
 Only used when we refresh the data. It reads the raw downloads in `data/raw/`, puts the API
 files together into `parks.csv`, adds up the monthly visits into `visits.csv`, and writes
-both into `src/parkmatch/data/`. The download steps are in `src/parkmatch/data/README.md`.
+both into `src/park_matching/data/`. The download steps are in `src/park_matching/data/README.md`.
 
 ## Interactions to accomplish a use case
 

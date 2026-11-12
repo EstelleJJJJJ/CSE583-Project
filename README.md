@@ -1,12 +1,12 @@
-# ParkMatch
+# Park Matching
 
-ParkMatch helps people pick which U.S. National Park System sites to visit. You choose what
+Park Matching helps people pick which U.S. National Park System sites to visit. You choose what
 matters to you (states, activities, facilities, a highest entrance fee, whether you need a
 campground) and it lists the parks that fit, with a short reason for each one. You can also
 look up one park and compare a few side by side.
 
 This is our group project for CSE 583, Software Development for Data Scientists (University of
-Washington, Autumn 2026). ParkMatch is a working name for now.
+Washington, Autumn 2026).
 
 ## Who it is for
 
@@ -24,15 +24,15 @@ We join two public sources from the National Park Service on the park code:
   recreation visits per park and month, which we add up by year.
 
 A copy of both, downloaded on 2026-11-05, ships with the package, so you don't need an API key.
-[src/parkmatch/data/README.md](src/parkmatch/data/README.md) explains how to refresh it.
+[src/park_matching/data/README.md](src/park_matching/data/README.md) explains how to refresh it.
 
 ## Install
 
 Python 3.11 or newer.
 
 ```
-git clone https://github.com/EstelleJJJJJ/CSE583-Project.git
-cd CSE583-Project
+git clone https://github.com/EstelleJJJJJ/Park-Matching.git
+cd Park-Matching
 pip install -e ".[dev]"
 pytest
 ```
@@ -40,10 +40,10 @@ pytest
 ## Example
 
 ```python
-import parkmatch
+import park_matching
 
-table = parkmatch.build_park_table()
-hits = parkmatch.find_parks(table, states=["WA"], activities=["Hiking", "Camping"], max_fee=35)
+table = park_matching.build_park_table()
+hits = park_matching.find_parks(table, states=["WA"], activities=["Hiking", "Camping"], max_fee=35)
 print(hits[["full_name", "match_score", "match_reasons"]].head(3).to_string(index=False))
 ```
 
@@ -59,12 +59,12 @@ There's a longer example in [examples/find_parks_example.py](examples/find_parks
 ## What's in the repository
 
 ```
-design/          user stories and use cases
-docs/            functional and component specifications
-src/parkmatch/   the package: data.py (loads and joins the data), matcher.py (search and compare)
-tests/           tests, run with pytest
-examples/        an example script
-scripts/         build_data.py, only used to refresh the data
+design/              user stories and use cases
+docs/                functional and component specifications
+src/park_matching/   the package: data.py loads and joins the data, matcher.py searches and compares
+tests/               tests, run with pytest
+examples/            an example script
+scripts/             build_data.py, only used to refresh the data
 ```
 
 GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
@@ -73,10 +73,10 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 | Name | GitHub | So far |
 |---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template |
-| Peiyan Xie | @peiyax | the 30 user stories |
-| Zitong Ren | @ari11a | package folder setup |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, data and matcher code, tests, CI |
+| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories |
+| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md |
+| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories |
+| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package |
 
 We'll update this table as we split up the rest of the work.
 

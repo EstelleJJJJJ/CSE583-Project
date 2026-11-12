@@ -7,23 +7,25 @@ monuments, historic sites, seashores, recreation areas and trails. Each one has 
 on nps.gov, so finding the few that fit what you like (a state, some activities, certain
 facilities, a budget) means opening a lot of pages.
 
-ParkMatch puts the National Park Service's own data into one table and lets people filter
+Park Matching puts the National Park Service's own data into one table and lets people filter
 it, look at one park, and compare a few parks side by side. Every result comes with a short
 reason, so people can see why a park showed up. Right now it's a small Python package. We
 plan to add a map and a simple web page on top of it later in the quarter.
 
 ## User profile
 
-Our 30 user stories (`design/user_stories.md`) describe people planning a trip. We see four
-groups:
+Our user stories (`design/user_stories.md`) describe 32 different people planning a trip. We
+see four groups:
 
 - **First-time and casual visitors** such as Alex, Sophie, Lucas, Mia and Isabella. They know
   little about national parks. They want plain words, a photo, a short description and only
   a few filters.
-- **People with a hobby** such as Olivia, Noah, Chloe, Daniel, Owen, Amelia, William, Ella,
-  Michael and Jack. They know their activity well and want to filter by it.
+- **People with a hobby** such as Olivia, Noah, Chloe, Owen, Amelia, William, Ella, Michael,
+  Jack and both Daniels (one likes stargazing, the other ranger programs). They know their
+  activity well and want to filter by it.
 - **People planning around logistics** such as Sarah, Ryan, Henry, David, Lily, Ethan,
-  Natalie and Grace. They care about campgrounds, facilities, fees and how to get there.
+  Natalie, Grace and Priya. They care about campgrounds, facilities, fees and how to get
+  there, and Priya also wants to know whether a park is open right now.
 - **People with access needs** such as James, Linda, Leo, Benjamin, Ava and Emily. They need
   specific facilities, such as wheelchair access or accessible restrooms. Leo also needs a
   version of the map that works with a screen reader.

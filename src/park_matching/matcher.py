@@ -1,13 +1,13 @@
 """Find, compare and look up parks.
 
-All functions take the table from parkmatch.build_park_table(). Activity and
+All functions take the table from park_matching.build_park_table(). Activity and
 amenity names must be spelled the way the NPS data spells them, for example
 "Hiking" or "Restroom - Accessible".
 """
 
 import pandas as pd
 
-from parkmatch.data import split_list
+from park_matching.data import split_list
 
 COMPARE_COLUMNS = [
     "full_name",

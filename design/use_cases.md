@@ -1,8 +1,9 @@
 # Use cases
 
-This is our homework from the November 3 lecture. We read the 30 user stories in
-`user_stories.md`, grouped what people ask for into themes, and wrote four use cases in the
-template from the slides.
+This is our homework from the November 3 lecture, updated after the November 12 class. We read
+the user stories in `user_stories.md` (32 different people), grouped what people ask for into
+themes, and wrote four use cases in the template from the slides. Two of the people are named
+Daniel, so the table says which one.
 
 ## Themes in the user stories
 
@@ -11,31 +12,34 @@ count under several themes.
 
 | Theme | Stories | Who | Use case |
 |---|---|---|---|
-| Filter by activity or interest | 20 | Alex, Sarah, Michael, David, Linda, Olivia, Ryan, Sophie, Noah, Chloe, Daniel, Ava, Zoe, Lily, Owen, Amelia, Ella, William, Isabella, Natalie | UC1 |
+| Filter by activity or interest | 21 | Alex, Sarah, Michael, David, Linda, Olivia, Ryan, Sophie, Noah, Chloe, Daniel (stargazing), Daniel (ranger programs), Ava, Zoe, Lily, Owen, Amelia, Ella, William, Isabella, Natalie | UC1 |
 | Trail details (length, elevation, difficulty, surface) | 19 | Alex, Sarah, Michael, Emily, Linda, James, Olivia, Ryan, Sophie, Lucas, Ava, Benjamin, Zoe, Lily, Owen, Jack, Ella, Isabella, Natalie | not this quarter |
 | Facilities (restrooms, water, parking, visitor centers) | 18 | Alex, Sarah, David, Linda, James, Ryan, Ethan, Mia, Ava, Benjamin, Zoe, Henry, Lily, Amelia, Jack, William, Isabella, Leo | UC1 |
-| Season, weather and crowds | 14 | Sarah, Michael, David, Olivia, Ryan, Noah, Chloe, Daniel, Mia, Ava, Benjamin, Zoe, Jack, William | partly: yearly visits in UC2 and UC3 |
+| Season, weather and crowds | 15 | Sarah, Michael, David, Olivia, Ryan, Noah, Chloe, Daniel (stargazing), Mia, Ava, Benjamin, Zoe, Jack, William, Priya | partly: yearly visits in UC2 and UC3 |
 | Comparing parks | 7 | Alex, Emily, Ethan, Mia, Benjamin, Leo, Natalie | UC3 |
 | Short introduction, photo and link | 7 | Alex, Sophie, Olivia, Zoe, Owen, Amelia, Natalie | UC2 |
-| Campgrounds | 5 | Ryan, Ethan, Daniel, Henry, Isabella | UC1 |
+| Campgrounds | 5 | Ryan, Ethan, Daniel (stargazing), Henry, Isabella | UC1 |
+| Accessibility | 5 | Linda, James, Noah, Leo, Daniel (ranger programs) | UC1, UC4 |
 | Map and location | 4 | Alex, David, Sophie, Leo | UC4 |
-| Accessibility | 4 | Linda, James, Noah, Leo | UC1, UC4 |
+| Current alerts, closures and opening hours | 3 | David, Ava, Priya | not this quarter |
 | Getting there without a car | 3 | Grace, Linda, James | partly: the "Public Transit" facility in UC1 |
-| Entrance fees and cost | 1 | Ethan | UC1 |
+| Entrance fees and cost | 2 | Ethan, Daniel (ranger programs) | UC1 |
 | Pets | 1 | Emily | partly: the "Pets Allowed" facility in UC1 |
 
 Most people want to filter parks by what they like to do and by facilities, and then look
 closely at a few parks. Trail details come up almost as often, but the NPS data has no trail
-information, so we can't cover them this quarter. Accessibility only shows up in four stories.
+information, so we can't cover them this quarter. Accessibility only shows up in five stories.
 The lecture warned against dropping a feature just because few stories mention it, so we
 treat it as required: accessible facilities work as normal filters, and the map will always
-come with a plain table of the same parks.
+come with a plain table of the same parks. Of the two newest stories, Daniel's ranger programs
+fit UC1, since guided tours are one of the NPS activities, and Priya's live alerts are in the
+list at the end.
 
 # Use Case: UC1 Find parks that match what I like
 
 ### Who is the User?
 *   **Persona/Role:** A traveler choosing where to go, for example Ryan (first camping trip) or Natalie (group trip).
-*   **Context:** Most of the 30 stories come down to this. People know what they like to do, but not which of the 475 park sites fit.
+*   **Context:** Most of the stories come down to this. People know what they like to do, but not which of the 475 park sites fit.
 
 ###  What Do They Want to Do with the Tool?
 *   **Primary Tasks:**
@@ -123,5 +127,5 @@ come with a plain table of the same parks.
 
 - **Trail details.** The NPS API has no trail table. This would need another source, such as OpenStreetMap.
 - **Weather and season.** Several stories ask about temperatures by month. We might add a weather source later if we have time.
-- **Real-time conditions.** Road closures and how crowded a park is today aren't in our data. Our visits are yearly totals.
+- **Real-time conditions.** Priya wants current alerts, road closures and opening hours. The NPS API has an alerts endpoint, but our package works from a saved copy of the data, so this would mean calling the API with a key every time someone searches. How crowded a park is today isn't in our data either, since our visits are yearly totals.
 - **Pet rules for each trail.** We only know whether a park lists "Pets Allowed" as a facility.
