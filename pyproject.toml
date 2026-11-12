@@ -9,26 +9,13 @@ description = "Find U.S. National Park System sites that fit what you like, usin
 readme = "README.md"
 requires-python = ">=3.11"
 license = "MIT"
-license-files = ["LICENSE"]
 authors = [{ name = "Park Matching team" }]
-keywords = ["national parks", "NPS", "travel", "pandas"]
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
-    "Programming Language :: Python :: 3.13",
-    "Operating System :: OS Independent",
-    "Topic :: Scientific/Engineering :: Information Analysis",
-]
 dependencies = [
     "pandas>=2.2",
 ]
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-cov", "ruff"]
-
-[project.urls]
-Repository = "https://github.com/EstelleJJJJJ/Park-Matching"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -44,13 +31,13 @@ line-length = 100
 target-version = "py311"
 
 [tool.ruff.lint]
-select = ["E", "F", "W", "I", "D"]
+select = ["E", "F", "W", "D"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
 [tool.ruff.lint.per-file-ignores]
-"tests/*" = ["D"]
+"test/*" = ["D"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["test"]
