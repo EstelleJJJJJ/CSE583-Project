@@ -10,7 +10,7 @@ from importlib.resources import files
 
 import pandas as pd
 
-DATA_DIR = files("parkmatch") / "data"
+DATA_DIR = files("park_matching") / "data"
 
 
 def _read_csv(name: str) -> pd.DataFrame:

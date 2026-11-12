@@ -1,8 +1,8 @@
-"""Build the two data files that ship with the parkmatch package.
+"""Build the two data files that ship with the park_matching package.
 
 This script is only for refreshing the data. It reads files downloaded by hand
-into data/raw/ (see src/parkmatch/data/README.md for the download commands) and
-writes two CSV files into src/parkmatch/data/:
+into data/raw/ (see src/park_matching/data/README.md for the download commands) and
+writes two CSV files into src/park_matching/data/:
 
 - parks.csv: one row per park, from the NPS API.
 - visits.csv: recreation visits per park and year, from the NPS Visitor Use
@@ -19,7 +19,7 @@ from pathlib import Path
 import pandas as pd
 
 RAW = Path("data/raw")
-OUT = Path("src/parkmatch/data")
+OUT = Path("src/park_matching/data")
 FIRST_YEAR = 2016
 
 # Visitor statistics codes that are different from the API park codes.

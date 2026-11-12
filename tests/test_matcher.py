@@ -3,7 +3,7 @@
 import pandas as pd
 import pytest
 
-from parkmatch import matcher
+from park_matching import matcher
 
 
 @pytest.fixture

@@ -7,7 +7,7 @@ monuments, historic sites, seashores, recreation areas and trails. Each one has 
 on nps.gov, so finding the few that fit what you like (a state, some activities, certain
 facilities, a budget) means opening a lot of pages.
 
-ParkMatch puts the National Park Service's own data into one table and lets people filter
+Park Matching puts the National Park Service's own data into one table and lets people filter
 it, look at one park, and compare a few parks side by side. Every result comes with a short
 reason, so people can see why a park showed up. Right now it's a small Python package. We
 plan to add a map and a simple web page on top of it later in the quarter.
