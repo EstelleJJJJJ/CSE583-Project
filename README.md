@@ -73,10 +73,10 @@ GitHub Actions runs `ruff check .` and `pytest` on every push and pull request.
 
 | Name | GitHub | So far |
 |---|---|---|
-| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template |
-| Peiyan Xie | @peiyax | the 30 user stories |
-| Zitong Ren | @ari11a | package folder setup |
-| Yuxia Liang | @zl1212-ship-it | use cases, specifications, data and matcher code, tests, CI |
+| Yucheng Jiang | @EstelleJJJJJ | repository setup, user story template, two more user stories |
+| Peiyan Xie | @peiyax | the first 30 user stories, removed the extra user_cases.md |
+| Zitong Ren | @ari11a | src folder in the class git exercise, removed duplicate user stories |
+| Yuxia Liang | @zl1212-ship-it | use cases, specifications, first version of the package |
 
 We'll update this table as we split up the rest of the work.
 
