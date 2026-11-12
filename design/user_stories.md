@@ -160,7 +160,4 @@ Daniel wants to learn more about the natural and cultural history of national pa
 
 Priya is planning a national park visit on short notice. She wants to use the website to check current park alerts, road closures, seasonal restrictions, and changes in operating hours. She needs important updates to be clearly displayed so she can avoid unexpected disruptions and adjust her plans if necessary. Priya has intermediate web skills but limited familiarity with National Park Service alert systems, so she prefers notices written in clear and simple language.
 
-37. **Sophie — An International Visitor**
-
-Sophie is an international tourist planning her first trip to the United States. She wants to use the website to understand the geographic distribution of national parks and choose a few that fit her itinerary and interests. She needs a map with recognizable city or state references, concise park introductions, and filters for landscapes, hiking difficulty, and driving access. Sophie has experience booking travel online but is unfamiliar with U.S. geography and national park terminology, so she prefers visual information and plain-language descriptions.
 
